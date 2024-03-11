@@ -1,0 +1,175 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "speak my son",
+        "good evening",
+        "what's up",
+        "what are you doing ",
+        "Yo !",
+        "hows life ",
+        "Knock Knock"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "I am at your service",
+        "Your wish is my command",
+        "How may I help you today",
+        "Hello, how're you doing ",
+        "FOS bot is ready",
+        "FOS bot is here",
+        "FOS bot at the ready",
+        "Fear not for FOS bot is here",
+        "FOS is here to assist you"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Sayonara",
+        "bye bye!",
+        "See you again",
+        "tata",
+        "have a great day",
+        "See you again",
+        "take care"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "I hope I made your day",
+        "Good day !",
+        "See you again"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "I am greatful",
+        "Thanks a lot",
+        "Thank you for helping me ",
+        "Exactly what I wanted ",
+        "Thanks for the help"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "The pleasure is all mine",
+        "You're welcome!",
+        "FOS bot is the best",
+        "FOS bot is happy"
+      ]
+    },
+    {
+      "tag": "Inverted Index",
+      "patterns": [
+        "sentences with word",
+        "all sentences with words",
+        "find all sentences with",
+        "find all sentences with the word",
+        "I want all the sentences with ",
+        "what are all the sentences that have the word",
+        "find all sentences with",
+        "which line has the word",
+        "contains ",
+        "contians the word",
+        "that contains",
+        "includes the word",
+        "that includes",
+        "search for",
+        "I want to find",
+        "look for the word",
+        "probe for the word",
+        "look for "
+      ],
+      "responses": ["Here is list of all the sentences : "]
+    },
+    {
+      "tag": "Summarizer",
+      "patterns": [
+        "Summarize the following",
+        "summarize ",
+        "can you summarize ",
+        "give me a summary of ",
+        "what is the summary of  ",
+        "summarize ",
+        "summary of "
+      ],
+      "responses": ["Here is a summary :", "The summarized version : "]
+    },
+
+    {
+      "tag": "Paraphrase",
+      "patterns": [
+        "Please paraphrase the sentence",
+        "Please paraphrase the document",
+        "paraphrase the document",
+        "paraphrase the sentence",
+        "paraphrase it",
+        "paraphrase this",
+        "can you paraphrase",
+        "paraphrase the below document",
+        "make it shorter",
+        "make the content shorter",
+        "make the content compact",
+        "make it precise ",
+        "shorten it",
+        "rephrase this",
+        "rephrase the passage",
+        "can you make this document shorter",
+        "reduce the lines ",
+        "too long",
+        "too complex to read"
+      ],
+      "responses": ["Sure, here is a paraphrased version :"]
+    },
+    {
+      "tag": "Query retrieval",
+      "patterns": [
+        "I have a question",
+        "Question",
+        "find the answer for the following",
+        "answer the query",
+        "I have a query",
+        "query retrieval",
+        "query",
+        "what is the answer for",
+        "find the answer",
+        "what is the answer for ",
+        "I need the answer for"
+      ],
+      "responses": ["I have found that : "]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
